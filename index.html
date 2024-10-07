@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <input type="text" placeholder="Enter First No" id="Num1" class="inputs">
+            <span id="error-Num1" class="error"></span>
+            <input type="text" placeholder="Enter Second No" id="Num2" class="inputs">
+            <span id="error-Num2" class="error"></span>
+
+            <div class="buttons">
+                <button type="button" class="choice" onclick="Addition()">+</button>
+                <button type="button" class="choice" onclick="Substraction()">-</button>
+                <button type="button" class="choice" onclick="Multiplication()">*</button>
+                <button type="button" class="choice" onclick="Division()">/</button>
+            </div>
+
+            <!-- <input type="text" class="Result " id="Result"> -->
+            <h1 class="Result" id="Result"></h1>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
